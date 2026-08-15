@@ -1,6 +1,4 @@
 # BrainTumourSegmentationAndQuantification
-The project identifies the region of the tumour in brain using MRI scans of brains and quantify the tumour regions into Edema, Enhancing tumour and Dead Tumour cells these process done using Deep learning models 
-# 3D-Brain-Tumor-Segmentation
 
 This project uses a 3d UNET  architecture to create segmentation masks for multimodal brain MRI images. It is then deployed to a Flask, Dash application
 to visualise each and every slice of the brain MRI as well as its corresponding tumor. It not only segments the tumor but also detects its type whether it
@@ -50,9 +48,9 @@ And now to get a look at all the slides, I have made this animation.
 
 <<h2 id="Setup">Setup</h2>
 
-Clone the repository : <code>git clone https://github.com/Shreyz-max/3D-Brain-Tumor-Segmentation.git</code>
+Clone the repository : <code>git clone https://github.com/sumisumanth555-dot/BrainTumourSegmentationAndQuantification</code>
 
-3D-Brain-Tumor-Segmentation: <code>cd 3D-Brain-Tumor-Segmentation</code>
+ BrainTumourSegmentationAndQuantification: <code>cd BrainTumourSegmentationAndQuantification</code>
 
 Create environment: <code>conda create -n brain_tumor python=3.8</code>
 
@@ -118,3 +116,4 @@ Here are a few references:
 [3D Unet implementation](https://github.com/ellisdg/3DUnetCNN)
 
 [Generalised Dice Loss](https://www.arxiv-vanity.com/papers/1707.03237/)
+
